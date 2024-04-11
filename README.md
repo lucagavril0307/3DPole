@@ -1,6 +1,7 @@
 # 3DPole
 
 10.04.2024 -> Added a full 3D Cad Model ( dimensions might differ in real life, components might differ in real life, no wiring and / or animations have been doen in the 3D Cad)
+
 11.04.2024 -> Added component manual, wiring diagrams and / or other legal information.
 
 
