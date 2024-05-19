@@ -38,5 +38,5 @@ Polar Printers look like Cartesian printers (solely on looks) with 3 separate ax
 
 ![image](https://github.com/lucagavril0307/3DPole/assets/163439407/a331d722-1aea-4a5b-ba6b-b6945ba8e72c)
 
-To get the position of a point in the XY plane you will need and angle and a distance (r and Θ) the distance takes value from 0 (the middle point of the circle) and the radius of the circle (half the bed size, so it will be the X axis) while Θ is an angle ( so from 0 to 360 <or 2π in radians>, aka the rotation of the bed, so the Y axis). The Z axis only dictates how high is said point.
+To get the position of a point in the XY plane you will need and angle and a distance (r and Θ) the distance takes values from 0 (the middle point of the circle) and the radius of the circle (half the bed size, so it will be the X axis) while Θ is an angle ( so from 0 to 360 <or 2π in radians>, aka the rotation of the bed, so the Y axis). The Z axis only dictates how high is said point.
 
