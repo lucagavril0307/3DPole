@@ -4,6 +4,8 @@
 
 11.04.2024 -> Added component manual, wiring diagrams and / or other legal information.
 
+21.05.2024 Added the full Wiring Diagram ( I don't know how I missed that:3 );
+
 
 A Polar - based 3D printer made from off-the-shelf parts.
 
