@@ -9,7 +9,7 @@
 
 A Polar - based 3D printer made from off-the-shelf parts.
 
-Designed by Szilagyi Luca with the coordination of Maidan Alin.
+Designed by Szilagyi Luca.
 
 All the files for the 3D Printable files are provided in the 3DCAD folder with a full build file coming soon.
 This project required custom-made 3DPrinted Parts as well as custom crimped cables and configurable firmware based on Marlin.
@@ -42,3 +42,25 @@ Polar Printers look like Cartesian printers (solely on looks) with 3 separate ax
 
 To get the position of a point in the XY plane you will need and angle and a distance (r and Θ) the distance takes values from 0 (the middle point of the circle) and the radius of the circle (half the bed size, so it will be the X axis) while Θ is an angle ( so from 0 to 360 <or 2π in radians>, aka the rotation of the bed, so the Y axis). The Z axis only dictates how high is said point.
 
+ #Printer Specs and Information
+
+ As explained earlier, it's a polar based printer, with some features made using 3D printing.
+ 
+ How could this work?
+ 
+ In early times of 3D printing there was a community named RepRap that wanted to make 3D printing more accessible since at the time, it was meant for only the industry or the rich. They designed printers that could be cheap and good enough for anyone to make, that’s right, make. At that time you couldn’t buy a pre-made printer, you had to build it yourself. During this period is when lots of new discoveries were made that brought 3D Printing to what it is today.
+ 
+The RepRap community were a bunch of enthusiasts that made printer projects with them in mind to be easy to recreate. Since they did not have access to industrial equipment, most parts in a 3d printer needed to be 3d printed themselves. They decided that a 1’s generation of printer should be made with 3d printer parts from industrial machines and the next generation of printers could have all the pieces they need from the 1’st generation machine, so, with only one machine you can make another which can make another and so on. The trend caught up and even reached our days.
+
+The Voron Design Team known for their fast printers has its own “Print it forward” program where (for a sum of money) somebody that already has a Voron printer will print the parts you need (and the estetic parts if you want too) and later, you can print the same parts on your machine for someone else.
+
+I decided to make this project in the same spirit with all the parts 3D printed for this printer being able to be made on the new printer.
+Some decisions had to be made in terms of design, I never liked bulky printers (or enclosed ones for my sake - though they do have their many ups - even though I own one). The X axis is inspired by the Ender 3 axis for two big reasons, to make it clear it borrows something from Cartesian printers and because if it’s not broken, why fix it?
+
+The design is time tested and I think it looks good in contrast with the entire printer.
+
+As for the other parts, they are new designs made by me, besides the hotend that is inspired from the HERO ME fan duct.
+
+The color green that you can see everywhere is not random at all. Well, I mean it is random as the filament was a random color, I printed some parts for testing and I thought it looked good with the black. I ended up using 2 kg of this filament since it is high quality and I needed lots of parts. The gray is ABS and it is used due to its high heat resistance.
+
+Otherwise, I don’t have much to say about the design, there are cool design chives and other things, but you’ll have to find them on your own.
