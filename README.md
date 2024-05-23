@@ -4,7 +4,10 @@
 
 11.04.2024 -> Added component manual, wiring diagrams and / or other legal information.
 
-21.05.2024 Added the full Wiring Diagram ( I don't know how I missed that:3 );
+21.05.2024  -> Added the full Wiring Diagram ( I don't know how I missed that:3 );
+
+23.05.2024 -> Final* configuration of Software was published
+* - It is still a beta version, testing neeeds to be done to the Marlin 2.1.x itself and to my Config as well.
 
 
 A Polar - based 3D printer made from off-the-shelf parts.
@@ -66,3 +69,8 @@ As for the other parts, they are new designs made by me, besides the hotend that
 The color green that you can see everywhere is not random at all. Well, I mean it is random as the filament was a random color, I printed some parts for testing and I thought it looked good with the black. I ended up using 2 kg of this filament since it is high quality and I needed lots of parts. The gray is ABS and it is used due to its high heat resistance.
 
 Otherwise, I don’t have much to say about the design, there are cool design chives and other things, but you’ll have to find them on your own.
+
+# Software
+
+The Printer runs Marlin 2.1.x bugfix suited for my printer. Changes have been made to Config_adv.h and Config.h (as with any normal printer) . Marlin Developing Team holds the right to this software, I've just developed a branch of it to suit my needs.
+Most of the code has comments made by the Marlin team but 
