@@ -7,7 +7,9 @@
 21.05.2024 -> S-a adăugat diagrama de cablare completă ( nu știu cum am ratat asta:3 );
 
 23.05.2024 -> Configurația finală* a software-ului a fost publicată
-* - Este încă o versiune beta, testarea trebuie făcută pentru Marlin 2.1.x în sine și pentru configurația mea.
+- Este încă o versiune beta, testarea trebuie făcută pentru Marlin 2.1.x în sine și pentru configurația mea.
+
+  24.05.2024 -> S-a adăugat noua documentaie în română precum și s-au făcut update-uri la documente deja existente.
 
 
 3D Pole este o imprimanta 3 bazată pe Coordonate Polare construită din materiale “off-the-shelf” și/sau printate 3D.
@@ -25,7 +27,7 @@ Acest proiect a necesitat piese imprimate 3D personalizate, precum și cabluri s
 !! Sistemul folosește o sursă de alimentare de 24V 12,4 A. În timp ce metaluli firelor nu este expus, este totuși periculos!
 
 
-# Imprimante Polaree
+# Imprimante Polare
 
 Majoritatea oamenilor au auzit de imprimantele 3D Cartesiane, iar alții știu și despre imprimantele CoreXY.
 Adevărul este că toată industria imprimării 3D s-a schimbat foarte mult în ultimii 20 de ani. Avem tipuri aparent nesfârșite de imprimante 3D.
@@ -51,13 +53,10 @@ Pentru a obține poziția unui punct în planul XY veți avea nevoie de un unghi
  # Specificații și informații despre imprimantă
 
  După cum am explicat mai devreme, este o imprimantă Polară, cu unele caracteristici realizate folosind imprimarea 3D.
- 
  Cum ar putea funcționa asta?
- 
  În primele timpuri ale imprimării 3D a existat o comunitate numită RepRap care dorea să facă imprimarea 3D mai accesibilă, deoarece la acea vreme, era destinată doar industriei sau bogaților. Au proiectat imprimante care ar putea fi ieftine și suficient de bune pentru ca oricine să le facă,. La acel moment nu puteai cumpăra o imprimantă prefabricată, trebuia să o construiești singur. În această perioadă s-au făcut o mulțime de noi descoperiri care au adus imprimarea 3D la ceea ce este astăzi.
  
 Comunitatea RepRap a fost o mulțime de entuziaști care au făcut ca proiectele de imprimante i să fie ușor de recreat. Deoarece nu aveau acces la echipamente industriale, majoritatea pieselor dintr-o imprimantă 3d trebuiau imprimate 3d. Ei au decis ca generația 1 de imprimante să fie făcute cu piese  imprimate 3d de la mașini industriale și următoarea generație de imprimante ar putea avea toate piesele de care au nevoie de la mașina de prima generație, așa că, cu o singură mașină puteți face alta care poate face altul și așa mai departe. Tendința a prins din urmă și chiar a ajuns în zilele noastre.
-
 Echipa de design Voron, cunoscută pentru imprimantele lor rapide, are propriul program „Print it forward” în care (pentru o sumă de bani) cineva care are deja o imprimantă Voron va imprima piesele de care aveți nevoie (și piesele estetice dacă doriți) și mai târziu, puteți imprima aceleași piese pe aparatul dvs. pentru altcineva.
 
 ![Captură de ecran 2024-05-21 192004](https://github.com/lucagavril0307/3DPole/assets/163439407/4c9d14f6-2ab6-4091-9f7f-9b78919e5185)
@@ -66,16 +65,4 @@ Am decis să fac acest proiect în același spirit cu toate piesele printate 3D 
 Unele decizii trebuiau luate în ceea ce privește designul, nu mi-au plăcut niciodată imprimantele voluminoase (sau cele închise - chiar dacă au multe plusuri - deși am una). Axa X este inspirată de axa Ender 3 din două mari motive, pentru a fi clar că împrumută ceva de la imprimantele carteziene și pentru că, dacă nu este stricat, de ce sa il repar?
 
 Designul este testat în timp și cred că arată bine în contrast cu întreaga imprimantă.
-
-În ceea ce privește celelalte părți, sunt modele noi făcute de mine, pe lângă hotend-ul care este un model HERO ME.
-
-Culoarea verde pe care o puteți vedea peste tot nu este deloc întâmplătoare. Ei bine, vreau să spun că este aleatoriu deoarece filamentul era o culoare aleatoare, am printat câteva piese pentru testare și mi s-a părut că arăta bine cu negru. Am ajuns să folosesc 2 kg din acest filament deoarece este de înaltă calitate și aveam nevoie de multe piese. Griul este ABS și este folosit datorită rezistenței sale ridicate la căldură.
-
-În rest, nu am multe de spus despre design, există arpagic de design cool și alte lucruri, dar va trebui să le găsești singur.
-
-# Software
-
-Imprimanta rulează Marlin 2.1.x bugfix potrivit pentru imprimanta mea. S-au făcut modificări la Configuration_adv.h și Configuration.h (ca orice imprimantă normală) . Marlin Developing Team deține dreptul la acest software, eu sunt doar dezvoltator a acestei ramuri pentru a se potrivi nevoilor mele.
-Majoritatea codului are comentarii făcute de echipa Marlin, dar 
-
-
+În ceea ce privește celelalte părți, sunt modele noi făcute de mine, pe lângă hotend-ul care este un model HERO ME și montura pentru axa X-E0 Care este un Model Ender 3.
